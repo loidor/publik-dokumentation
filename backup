@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf /opt/public
+cp -a /home/public /opt/public
+echo "Backup klar."

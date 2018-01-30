@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xmodmap -e 'keycode 133='
+xmodmap -e 'keycode 64='
+

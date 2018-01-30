@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rsync -qrpog --delete --exclude '.X*' /opt/public /home/
+echo "" > /home/public/.local/share/recently-used.xbel
+rm /var/spool/cups/*
