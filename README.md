@@ -4,6 +4,16 @@
 
 Sunne bibliotek använder Libki som hanteringssystem för gästdatorer. Libki finns på https://github.com/libki/libki-server. Libki körs på en Debianserver och är installerat utifrån anvisningarna i Libkis README 2018-12-11. Ett hum om linux och hur du arbetar i terminal är bra om något ska ändras. Du behöver kunna hantera mappstruktur och en texteditor, förslagsvis nano. Har du aldrig arbetat i terminal tidigare är det nog bra att kika på en av de tusentals snabbkurser i terminal som finns på nätet. Sök på "linux terminal 101" och allihop kommer fungera för det vi behöver använda den till här.
 
+### NTP automatisk klocka
+
+Eftersom Debians klocka inte automatiskt synkas mot en tidsserver är ett paket installerat för att ta hand om automatisk uppdatering av klockan, för att försäkra att den alltid går rätt.
+
+```
+sudo apt-get install ntp
+```
+
+NTP går att konfigurera så den kopplas mot en lokal svensk tidsserver, men vår är helt enkelt inställd på debians standardserver.
+
 ### Automatiska uppdateringar
 
 Servern uppdateras automatiskt via paketet Unattended-upgrades (`apt-get install unattended-upgrades`) och är därmed i princip underhållsfri.
