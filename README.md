@@ -227,6 +227,10 @@ username="Personnummer:"
 password="PIN-kod:"
 ```
 
-Mappen `Libki` innehållandes `Libki Kiosk Management System.ini` behöver inte förändras, utan ska enbart kopieras till `/home/public/.config`.
+Ej inlagt:
+Configurable Menu
+
+Program som installeras och läggs på skrivbordet
+Custom genväg till youtube på skrivbordet
 
 Släktforskningsprogram som ska installeras på släktforskningsdatorn och Dator 7 respektive 8 kommer dokumenteras vid ett senare tillfälle.
