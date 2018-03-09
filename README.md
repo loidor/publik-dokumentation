@@ -2,7 +2,7 @@
 
 ## Server
 
-Sunne bibliotek använder Libki som hanteringssystem för gästdatorer. Libki finns på https://github.com/libki/libki-server. Libki körs på en Debianserver och är installerat utifrån anvisningarna i Libkis README 2018-12-11. Ett hum om linux och hur du arbetar i terminal är bra om något ska ändras. Du behöver kunna hantera mappstruktur och en texteditor, förslagsvis nano. Har du aldrig arbetat i terminal tidigare är det nog bra att kika på en av de tusentals snabbkurser i terminal som finns på nätet. Sök på "linux terminal 101" och allihop kommer fungera för det vi behöver använda den till här.
+Sunne bibliotek använder Libki som hanteringssystem för gästdatorer. Libki finns på https://github.com/libki/libki-server. Libki körs på en Debian Jessieserver (installationshänvisningar till senare serverversioner håller på att skrivas) och är installerat utifrån anvisningarna i Libkis README 2018-12-11. Ett hum om linux och hur du arbetar i terminal är bra om något ska ändras. Du behöver kunna hantera mappstruktur och en texteditor, förslagsvis nano. Har du aldrig arbetat i terminal tidigare är det nog bra att kika på en av de tusentals snabbkurser i terminal som finns på nätet. Sök på "linux terminal 101" och allihop kommer fungera för det vi behöver använda den till här.
 
 ### NTP automatisk klocka
 
