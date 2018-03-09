@@ -100,7 +100,7 @@ mysql -u[MYSQL ANVÄNDARNAMN] -p[MYSQL LÖSENORD] libki < [backupens filnamn].sq
 
 ## Klienterna
 
-Klienterna kör Linux Mint Cinnamon. Just nu är versionen 18.2 och har support till april 2021.
+Klienterna kör Linux Mint Cinnamon. Just nu är versionen 18.1 och har support till april 2021.
 
 Den här versionen (och senare) finns på https://linuxmint.com/download_all.php. Installationsguide finns på https://linuxmint-installation-guide.readthedocs.io/en/latest/.
 
